@@ -1,0 +1,26 @@
+package java_study;
+
+import java.util.Scanner;
+
+public class loop {
+
+	public static void main(String[] args) {
+		// forloop을 이용한 구구단 출력
+		
+		System.out.println("원하는 숫자를 입력하세요.");
+		Scanner inputNum = new Scanner(System.in);
+		int number = inputNum.nextInt();
+		
+		for(int i=1;i<10;i++) {
+			System.out.printf("%d * %d = %d\n", number, i, number*i);
+		}
+		inputNum.close();
+		System.out.println("--------------------");
+		int j = 0;
+		while(j<9) {
+			System.out.printf("%d * %d = %d\n", number, j, number*j);
+			j++;
+		}
+	}
+
+}

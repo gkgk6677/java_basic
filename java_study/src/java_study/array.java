@@ -1,0 +1,21 @@
+package java_study;
+
+import java.util.Arrays;
+
+public class array {
+
+	public static void main(String[] args) {
+		int[] arrAtt1 = {10, 20, 30, 40, 50};
+		int[] arrAtt2 = null;
+		int[] arrAtt3 = null;
+		
+		System.out.println(arrAtt1);
+		System.out.println("arrAtt1_length : " + arrAtt1.length);
+		
+		System.out.println("arrAtt1 : " + Arrays.toString(arrAtt1));
+		
+		arrAtt3 = Arrays.copyOf(arrAtt1, arrAtt1.length);
+		System.out.println("arrAtt3 : " + Arrays.toString(arrAtt3));
+	}
+
+}

@@ -1,0 +1,15 @@
+package method;
+
+public class ChildClass {
+	
+	public String name;
+	public String gender;
+	public int age;
+	
+	public ChildClass() {
+		System.out.println("--- ChildClass constructor ---");
+	}
+	public void getInfo() {
+		System.out.println("--- getInfo() START ---");
+	}
+}

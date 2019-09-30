@@ -1,0 +1,13 @@
+package java_study;
+
+public class array {
+
+	public static void main(String[] args) {
+		int[] arrAtt1 = {10, 20, 30, 40, 50};
+		int[] arrAtt2 = null;
+		int[] arrAtt3 = null;
+		
+		System.out.println(arrAtt1);
+	}
+
+}

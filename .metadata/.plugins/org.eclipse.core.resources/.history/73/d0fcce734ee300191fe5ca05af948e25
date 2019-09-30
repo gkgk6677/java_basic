@@ -1,0 +1,15 @@
+package method;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		ChildClass childClass = new ChildClass();
+		
+		childClass.name = "seo";
+		childClass.gender = "male";
+		childClass.age = 27;
+		
+		childClass.getInfo();
+		
+	}
+}
