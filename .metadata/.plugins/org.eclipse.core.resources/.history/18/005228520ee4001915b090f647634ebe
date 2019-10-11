@@ -1,0 +1,8 @@
+
+public class test {
+	public static void main(String[] args) {
+		String str = new String("java");
+		str.append(" world");
+		System.out.println(str);
+	}
+}

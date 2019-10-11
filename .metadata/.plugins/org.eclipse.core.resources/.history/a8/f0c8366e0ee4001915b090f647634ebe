@@ -1,0 +1,12 @@
+
+public class test {
+	public static void main(String[] args) {
+		
+		String str = new String("java");
+		str = str + " world";
+		System.out.println(str);
+		
+		StringBuffer str1 = new StringBuffer("hello");
+		str1.append(" world")
+	}
+}

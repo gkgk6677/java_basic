@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class test {
+	public static void main(String[] args) {
+		
+		ArrayList<String> list = new ArrayList<String>();
+		
+		list.add("hello");
+		System.out.println(list);
+		list.add("world");
+		System.out.println(list);
+		list.add(1,"java");
+		System.out.println(list);
+		list.set(0,"a");
+		list.set(1,"b");
+		list.set(2,"c");
+		System.out.println(list);
+		list.remove(1);
+		System.out.println(list);
+		boolean b = list.isEmpty();
+		System.out.println(b);
+		System.out.println("---------------------------------");
+		
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		map.put(0, "hello");
+		map.put(1, "java");
+		System.out.println(map);
+		System.out.println("map.size : " + map.size());
+	}
+}

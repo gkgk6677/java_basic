@@ -1,0 +1,9 @@
+import java.io.FileInputStream;
+
+public class test {
+	public static void main(String[] args) {
+	
+		FileInputStream fs = new FileInputStream(null);
+		
+	}
+}

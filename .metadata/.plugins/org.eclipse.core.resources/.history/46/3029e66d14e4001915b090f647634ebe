@@ -1,0 +1,25 @@
+
+public class test {
+	public static void main(String[] args) {
+		
+		try {
+			test func = new test();
+			func.firstMethod();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	public void firstMethod() throws Exception {
+		secondMethod();
+	}
+	
+	public void secondMethod() throws Exception {
+		thirdMethod();
+	}
+	
+	//Exception ¹ß»ý
+	public void thirdMethod() throws Exception {
+		System.out.println("result" + (10/0));
+	}
+}

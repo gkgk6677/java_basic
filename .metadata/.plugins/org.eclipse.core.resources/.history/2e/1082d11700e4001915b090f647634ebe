@@ -1,0 +1,18 @@
+package inheritance;
+
+import interface_study.UniversityA;
+import interface_study.UniversityB;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ChildClass child1 = new ChildClass();
+		child1.childFunc();
+		child1.parentFunc();
+		
+		UnivInfo univ = new UniversityA();
+		UnivInfo univ = new UniversityB();
+		
+		
+		
+	}
+}

@@ -11,4 +11,10 @@ public class ObjectClass {
 		System.out.printf("2개의 파라미터 : " + Arrays.toString(iArr));
 	}
 	
+	
+	
+	
+	
+	
+	
 }
