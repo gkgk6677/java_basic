@@ -1,0 +1,16 @@
+package template;
+
+public class AICar extends Car {
+
+	@Override
+	public void drive() {
+		System.out.println("자율주행차를 주행합니다.");
+		System.out.println("AI가 핸들을 조작합니다.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("자율주행차를 멈춥니다.");
+	}
+	
+}

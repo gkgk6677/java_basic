@@ -1,0 +1,12 @@
+package gamelevel;
+
+public class PlayerTest {
+	public static void main(String[] args) {
+		
+		Player player = new Player();
+		Player bplayer = new Player();
+		player.play(1);
+		player.upgradeLevel(level);
+		
+	}
+}

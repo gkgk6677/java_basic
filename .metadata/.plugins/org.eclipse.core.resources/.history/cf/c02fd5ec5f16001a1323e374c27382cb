@@ -1,0 +1,22 @@
+package inheritance;
+
+public class GOLDCustomer extends Customer {
+//	protected int customerID;
+//	protected String customerName;
+//	protected String customerGrade;
+//	int bonusPoint;
+//	double bonusRatio;
+	
+	double salesRatio;
+	
+	public GOLDCustomer() {
+		this.customerGrade = "GOLD";
+		this.bonusRatio = 0.02;
+		this.salesRatio = 0.1;
+	}
+	
+	public int calcPrice(int price) {
+		return price;
+	}
+	
+}

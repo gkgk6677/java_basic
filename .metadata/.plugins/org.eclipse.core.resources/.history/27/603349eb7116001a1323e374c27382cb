@@ -1,0 +1,11 @@
+package gamelevel;
+
+public class Player {
+	public static void main(String[] args) {
+		PlayerLevel bPlayer = new BeginnerLevel();
+		PlayerLevel aPlayer = new AdvencedLevel();
+		PlayerLevel sPlayer = new SuperLevel();
+		
+		bPlayer.go(1);
+	}
+}

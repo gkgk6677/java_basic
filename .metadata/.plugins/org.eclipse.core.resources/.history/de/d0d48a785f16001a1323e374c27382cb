@@ -1,0 +1,27 @@
+package inheritance;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		
+//		Customer customerLee = new Customer();
+//		customerLee.customerName = "이순신";
+//		customerLee.customerID = 10010;
+//		customerLee.bonusPoint = 1000;
+//		
+//		String msg = customerLee.showCustomerInfo();
+//		System.out.println(msg);
+//		
+//		VIPCustomer vipcustomerKim = new VIPCustomer();
+//		vipcustomerKim.customerName = "김유신";
+//		vipcustomerKim.customerID = 10020;
+//		vipcustomerKim.bonusPoint = 10000;
+//		
+//		String msg2 = vipcustomerKim.showCustomerInfo();
+//		System.out.println(msg2);
+		
+		GOLDCustomer customerSeo = new GOLDCustomer();
+		
+	}
+
+}

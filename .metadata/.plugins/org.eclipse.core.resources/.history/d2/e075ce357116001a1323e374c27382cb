@@ -1,0 +1,27 @@
+package gamelevel;
+
+public class AdvencedLevel extends PlayerLevel {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void jump() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turn() {
+		System.out.println("중급자는 turn을 못합니다.");
+	}
+
+	@Override
+	public void shwoLevelMessage() {
+		System.out.println("-----*중급자 레벨입니다.*-----");
+	}
+
+}

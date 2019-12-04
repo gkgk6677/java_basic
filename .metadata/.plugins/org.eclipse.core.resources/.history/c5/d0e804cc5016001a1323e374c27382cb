@@ -1,0 +1,13 @@
+package inheritance;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		
+		Customer customerLee = new Customer();
+		customerLee.customerName = "ÀÌ¼ø½Å";
+		customerLee.customerID = 10010;
+		customerLee.bonusPoint = 1000;
+	}
+
+}

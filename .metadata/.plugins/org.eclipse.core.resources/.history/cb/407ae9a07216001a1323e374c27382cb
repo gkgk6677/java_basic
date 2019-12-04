@@ -1,0 +1,11 @@
+package gamelevel;
+
+public class Player {
+	PlayerLevel level;
+	
+	public Player() {
+		level = new BeginnerLevel();
+		level.showLevelMessage();
+	}
+	
+}
